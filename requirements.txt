@@ -1,0 +1,9 @@
+jupyter
+notebook
+numpy
+pandas
+matplotlib
+pytest
+pytest-cov
+nbclient
+nbconvert

@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+
+# Coverage / test reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Large/derived data files
+data/**/*.csv
+data/**/*.zip

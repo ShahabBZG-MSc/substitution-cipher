@@ -1,0 +1,16 @@
+name: substitution-cipher
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+      - pytest
+      - pytest-cov
+      - nbclient
+      - nbconvert
