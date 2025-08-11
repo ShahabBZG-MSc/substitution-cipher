@@ -5,7 +5,7 @@ def get_repo_root() -> Path:
     for parent in current.parents:
         if (parent / ".git").exists() or (parent / "README.md").exists():
             return parent
-    return Path(__file__).resolve().parents[2]  # fallback
+    return current.parents[2]  # pragma: no cover
 
 REPO_ROOT = get_repo_root()
 DATA_DIR = REPO_ROOT / "data"

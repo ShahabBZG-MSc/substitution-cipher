@@ -1,6 +1,6 @@
+# src/crypto/__init__.py
 """
 Crypto package for Applied Data Security — Substitution Cipher project.
-Auto-generated __init__.py to expose main functions/classes.
 """
 
 from .substitution import (
@@ -10,8 +10,7 @@ from .substitution import (
     affine_decrypt,
     substitution_encrypt,
     substitution_decrypt,
-    letter_frequencies,
-    normalize_frequencies,
+    letter_frequencies,   # normalized now
 )
 
 __all__ = [
@@ -22,5 +21,4 @@ __all__ = [
     "substitution_encrypt",
     "substitution_decrypt",
     "letter_frequencies",
-    "normalize_frequencies",
 ]

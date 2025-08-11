@@ -1,7 +1,6 @@
 jupyter
-notebook
+ipykernel
 numpy
-pandas
 matplotlib
 pytest
 pytest-cov
