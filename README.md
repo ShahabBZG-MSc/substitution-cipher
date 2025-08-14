@@ -9,7 +9,7 @@ Developed as part of the *Applied Data Security* MSc coursework at the Universit
 
 ---
 
-## 📜 Features
+##  Features
 - **Caesar Cipher** encryption & decryption
 - **Affine Cipher** encryption & decryption
 - **Monoalphabetic Substitution Cipher** (case-preserving)
@@ -20,7 +20,7 @@ Developed as part of the *Applied Data Security* MSc coursework at the Universit
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```
 substitution-cipher/
 ├── src/
@@ -44,7 +44,7 @@ substitution-cipher/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -71,7 +71,7 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/substitution_ciphe
 
 ---
 
-## 📌 Example Usage
+##  Example Usage
 ```python
 from crypto.substitution import caesar_encrypt, caesar_decrypt
 
@@ -86,7 +86,7 @@ print("Decrypted:", dec)  # hello world
 
 ---
 
-## 🧪 Methods
+##  Methods
 - **Implementation:** Python 3.11, object-free functional style
 - **Testing:** Pytest with 100% coverage
 - **CI/CD:** GitHub Actions for automated tests and notebook execution
@@ -95,7 +95,7 @@ print("Decrypted:", dec)  # hello world
 
 ---
 
-## 📊 Results
+##  Results
 - All cipher functions verified against known plaintext/ciphertext pairs
 - Frequency analysis successfully identifies likely substitutions for simple substitution ciphers
 - CI workflow executes tests and notebook on every push/PR to `main`
